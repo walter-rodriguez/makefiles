@@ -1,0 +1,15 @@
+# Ejemplo de archivo de configuración.
+# Primero debe generar una copia de este archivo a `.env` y en el editarlo como sea necesario:
+#     $ cp .env.sample .env
+# Validar que el nombre `.env` se encuentre en `.gitignore` o que este marcado para ignorarlo
+# en el Sistema de control de versiones de su elección
+
+# Para saber que archivos incluir, revise los comentarios de los archivos de la carpeta `./configs/*.mk`
+
+# El único campo obligatorio es la variable MAKE_CFG el cual sólo incluira el nombre del
+# archivo de configuración sin extensión ni rutas relativas
+MAKE_CFG=golang
+
+# ==================================================================================== #
+# --Otras variables se definen desde esta linea--
+# PROJECTNAME=MyProject
